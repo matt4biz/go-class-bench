@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/matt4biz/go-class-bench)](https://repl.it/github/matt4biz/go-class-bench)
+
 # Go class: Benchmark examples
 Note that the results may vary depending on the version of Go, the operating system, the underlying hardware, and perhaps the phase of the moon. Benchmarking is a black art. However, these examples should show quite a difference in almost any case, simple as they are.
 
