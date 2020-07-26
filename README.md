@@ -38,3 +38,5 @@ The second version has much better performance when we eliminate that false shar
 `go test -bench=. -benchtime=10s -cpu=2,4,8 ./share2/share2_test.go`
 
 Note that there's probably some other contention in this program due to the channels; it's a bit artificial, but the impact of false sharing is very clear.
+
+**ALSO NOTE** that on repl.it, you will not have the necessary cores for the false sharing example to show any real difference (it appears to run single-threaded).
